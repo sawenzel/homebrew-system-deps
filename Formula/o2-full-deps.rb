@@ -41,6 +41,7 @@ class O2FullDeps < Formula
   depends_on "gtk-doc"
   depends_on "llvm@15"
   depends_on "clang-format"
+  depends on "jq"
 
   def install
     system "touch", "#{prefix}/empty"
